@@ -2,9 +2,36 @@
   margin: 0;
   padding: 0;
 }
+
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: darkslategrey;
+  display: flex;
+  flex-direction: column;
 }
+
+.menu {
+  background-color: black;
+  margin: 5px 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+}
+
+main {
+  flex: 1;
+}
+
 h1 {
   background: darkred;
   padding: 5px;
@@ -12,16 +39,8 @@ h1 {
   text-align: center;
 }
 
-.menu {
-  background-color: black;
-  margin: 5px 50px;
-  display: flex;
-  justify-content: center; /* centraliza horizontalmente */
-  gap: 20px;
-  padding: 10px;
+footer {
+  background: darkcyan;
   text-align: center;
-}
-a {
-  color: darkred;
-  text-decoration: none;
+  padding: 15px;
 }
