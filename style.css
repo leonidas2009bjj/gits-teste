@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: darkslategrey;
+}
+h1 {
+  background: darkred;
+  padding: 5px;
+  margin: 50px;
+  text-align: center;
+}
+
+.menu {
+  background-color: black;
+  margin: 5px 50px;
+  display: flex;
+  justify-content: center; /* centraliza horizontalmente */
+  gap: 20px;
+  padding: 10px;
+  text-align: center;
+}
+a {
+  color: darkred;
+  text-decoration: none;
+}
