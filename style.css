@@ -9,13 +9,13 @@ body {
 }
 
 body {
-  background: darkslategrey;
+  background: rgb(80, 10, 10);
   display: flex;
   flex-direction: column;
 }
 
 .menu {
-  background-color: black;
+  background: darkred;
   margin: 5px 50px;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 }
 
 a {
-  color: darkred;
+  color: white;
   text-decoration: none;
 }
 
@@ -33,14 +33,29 @@ main {
 }
 
 h1 {
-  background: darkred;
   padding: 5px;
   margin: 50px;
   text-align: center;
 }
 
 footer {
-  background: darkcyan;
+  background: rgb(92, 19, 19);
   text-align: center;
   padding: 15px;
+  color: wheat;
+}
+
+img {
+  width: 200px;
+  padding: 0;
+  margin: 0;
+}
+
+.imagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  margin-top: -30px; /* sobe as imagens */
 }
